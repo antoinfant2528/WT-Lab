@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    background: url("vecteezy_flat-design-yellow-geometric-shapes-background_2861654/cc_56_generated.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main{
+    margin:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    height: 500px;
+    gap: 100px;
+    border: none;
+    border-radius:50px  0px 50px  0px ;
+    box-shadow: 0 5px 20px  0px;
+    /* background: rgb(255,255,255,0.1);
+    backdrop-filter: blur(20px); */
+
+
+}
+.main img{
+    width: 500px;
+    height: 500px;
+}
+.container{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border:none;
+    border-radius: 10px;
+    width:50%;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    margin-right: 10px;
+    padding: 20px;
+   
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+input{
+   display: block;
+   padding: 5px;
+   width: 300px;
+   margin: 15px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 10px; 
+    transition: 1s ease-in;
+}
+.btn{
+    cursor: pointer;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(223, 226, 11);
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+.btn:hover{
+    background-color: rgb(212, 255, 0);
+}
+input:hover,input:visited{
+    border-bottom: 1px solid rgb(238, 255, 0);
+}
