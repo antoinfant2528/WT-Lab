@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <div class="main"> 
+     <div class="container1">
+        <img src="assets/Fingerprint-cuate.png" alt="">
+     </div>
+     <div class="container">
+        <form id="myForm" action="" method="post">
+            <h1>Student Details</h1>
+            <input type="text" name="name" id="name" placeholder=" Name" >
+            <input type="number" name="regno" id="regno" placeholder="ResigterNo">
+            <input type="email" name="email" id="email" placeholder="Email" >
+            <label for="year">Year</label>
+            <select name="year" id="year">
+                <option value="year1">Year-I</option>
+                <option value="year2">Year-II</option>
+                <option value="year3">Year-III</option>
+                <option value="year4">Year-IV</option>
+            </select>
+            <label for="dept">Department</label>
+            <select name="dpt" id="dept">
+                <label for="">assadf</label>
+                <option value="CSE-A">CSE-A</option>
+                <option value="CSE-B">CSE-B</option>
+                <option value="MECH">MECH</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="IT">IT</option>
+            </select>
+            <button class="btn" type="submit" onclick="validform()">Submit</button>
+            <p id="error" style="color: red; margin-top:10px ;font-weight: 800;"></p>
+        </form>
+     </div>
+
+    </div>
+    <script src="script.js"></script>
+  
+
+</body>
+</html>
