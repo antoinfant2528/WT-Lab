@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<players>
+    <player>
+        <name>John Doe</name>
+        <position>Forward</position>
+    </player>
+    <player>
+        <name>Jane Smith</name>
+        <position>Guard</position>
+    </player>
+</players>
